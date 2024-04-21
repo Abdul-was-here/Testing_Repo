@@ -1,7 +1,7 @@
 
 package newpackage;
 
-//testing
+//testing file
 public class NewClass {
     
 }
