@@ -16,6 +16,7 @@ app.post('/api/register', async (req, res) => {
     res.send('User registered!');
 });
 
+// Route to get the main page
 app.get('/', (req, res) => {
     res.send('Welcome to HireHub!');
 });

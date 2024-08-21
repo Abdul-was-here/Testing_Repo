@@ -2,10 +2,11 @@ const express = require('express');
 const app = express();
 
 const jobs = [
-    { id: 1, title: 'Software Engineer', company: 'Auckland University of Technolgy ', location: 'Auckland' },
-    { id: 2, title: 'Data Analyst', company: 'Trade me LTD', location: 'Wellington' }
+    { id: 1, title: 'Software Engineer', company: 'Auckland University of Technolgy ', location: 'Auckland CBD' },
+    { id: 2, title: 'Data Analyst', company: 'Trade me LTD', location: 'Wellington CBD' },
+    { id: 3, title: 'CyberSecurity', company: 'Microsoft', location: 'Auckland CBD' }
 ];
-
+// Route to get the main page
 app.get('/', (req, res) => {
     res.send('Welcome to HireHub!');
 });
